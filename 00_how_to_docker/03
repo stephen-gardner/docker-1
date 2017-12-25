@@ -1,0 +1,1 @@
+/usr/bin/env `docker-machine env Char | grep export | sed 's/export //g' | sed 's/\"//g'` zsh

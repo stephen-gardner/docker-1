@@ -1,0 +1,2 @@
+docker run --name alpine -i -t alpine
+docker rm alpine

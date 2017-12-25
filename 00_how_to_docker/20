@@ -1,0 +1,1 @@
+docker swarm init --listen-addr eth1 --advertise-addr eth1
