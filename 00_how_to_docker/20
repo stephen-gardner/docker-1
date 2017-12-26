@@ -1,1 +1,1 @@
-docker swarm init --listen-addr eth1 --advertise-addr eth1
+docker swarm init --advertise-addr `docker-machine ip Char`
