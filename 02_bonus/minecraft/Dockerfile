@@ -1,6 +1,7 @@
 # Minecraft server
 
 FROM anapsix/alpine-java
+LABEL Description="Launches a Minecraft server from within Alpine"
 RUN ["apk", "update"]
 RUN ["apk", "add", "wget"]
 WORKDIR minecraft
