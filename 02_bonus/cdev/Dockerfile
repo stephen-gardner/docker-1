@@ -18,6 +18,7 @@ RUN ["apk", "add", "valgrind"]
 RUN ["apk", "add", "valgrind-doc"]
 RUN ["apk", "add", "tmux"]
 RUN ["apk", "add", "tmux-doc"]
-COPY .vimrc /root/
 COPY .profile /root/
+COPY .vimrc /root/
 WORKDIR /projects
+ENTRYPOINT ["/bin/ash", "-l"]
